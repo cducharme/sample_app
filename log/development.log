@@ -6,3 +6,29 @@ Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-12-30 15:18:5
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
 Completed in 114ms (View: 9, DB: 12) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-12 14:11:22) [GET]
+
+ActionController::RoutingError (No route matches "/pages/contact" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-12 14:11:29) [GET]
+
+ActionController::RoutingError (No route matches "/pages/home/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-01-12 14:12:48) [GET]
+Rendering pages/contact
+Completed in 127ms (View: 118, DB: 0) | 200 OK [http://localhost/pages/contact/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-01-12 14:12:52) [GET]
+Rendering pages/home
+Completed in 22ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/home/]
